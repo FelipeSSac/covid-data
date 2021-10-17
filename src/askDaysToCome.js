@@ -1,7 +1,7 @@
 const readlineSync = require('readline-sync');
 
-function start() {
-  const answer = readlineSync.question('Digite a quantidade de dias: ', {
+function askDaysToCome(){
+  return readlineSync.question('Digite a quantidade de dias: ', {
     limit: (input) => {
       const numericInput = +input
 
@@ -9,8 +9,6 @@ function start() {
     },
     limitMessage: 'Desculpe, $<lastInput> nao e uma valor valido, por favor entre com um numero positivo e inteiro.'
   });
-
-  console.log(answer)
 }
 
-start()
+module.exports = askDaysToCome;
