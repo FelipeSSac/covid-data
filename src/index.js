@@ -1,11 +1,10 @@
-const askDaysToCome = require('./askDaysToCome');
-const fetchDataFromAPI = require('./fetchDataFromAPI')
+const askDaysToCome = require('./controllers/askDaysToCome');
+const ensureDaysToCome = require('./controllers/ensureDaysToCome');
 
 async function start() {
-  const answer = askDaysToCome()
-  const data = await fetchDataFromAPI()
+  const days = askDaysToCome()
 
-  console.log({answer, data})
+  await ensureDaysToCome(days)
 }
 
 start()

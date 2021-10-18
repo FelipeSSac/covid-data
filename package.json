@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index"
+    "start": "node src/index",
+    "update": "node src/updateDataFromAPI"
   },
   "dependencies": {
     "axios": "^0.23.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "xlsx": "^0.17.3"
   }
 }
