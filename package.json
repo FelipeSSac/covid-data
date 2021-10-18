@@ -5,11 +5,13 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index",
-    "update": "node src/updateDataFromAPI"
+    "test": "jest"
   },
   "dependencies": {
     "axios": "^0.23.0",
-    "readline-sync": "^1.4.10",
-    "xlsx": "^0.17.3"
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^27.3.0"
   }
 }
