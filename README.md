@@ -30,7 +30,7 @@ Node javascript run time to run javascript outside the web browser, ReadLine-Syn
 ## 🚀 How to run
 
 - You will need to have Node installed at your computer.
-You can download (here)[https://nodejs.org/en/]
+You can download [here](https://nodejs.org/en/)
 
 - You will need to have some package manager installed at your computer too. (npm, yarn)
 
@@ -40,15 +40,19 @@ You can download (here)[https://nodejs.org/en/]
 ```bash
 # Run to install dependencies.
 $ yarn
+# or
+$ npm install
 
-# Run to start the project on `localhost:3000`.
+# Run to start the project on CLI.
 $ yarn start
+# or
+$ npm start
 ```
 
 ## How to test
 
 - You will need to have Node installed at your computer.
-You can download (here)[https://nodejs.org/en/]
+You can download [here](https://nodejs.org/en/)
 
 - You will need to have some package manager installed at your computer too. (npm, yarn)
 
@@ -58,7 +62,11 @@ You can download (here)[https://nodejs.org/en/]
 ```bash
 # Run to install dependencies.
 $ yarn
+# or
+$ npm install
 
-# Run to test the project on `localhost:3000`.
+# Run to test the project on CLI.
 $ yarn test
+# or
+$ npm run test
 ```
