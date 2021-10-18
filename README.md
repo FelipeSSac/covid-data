@@ -49,7 +49,7 @@ $ yarn start
 $ npm start
 ```
 
-## How to test
+## 👷‍♀️ How to test
 
 - You will need to have Node installed at your computer.
 You can download [here](https://nodejs.org/en/)
