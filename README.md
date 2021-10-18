@@ -74,3 +74,4 @@ $ npm run test
 ## 💎 To Be Published
 
 To this project be published, we will need to build an API based at Controllers, Entities and Services design with paginated data to ensure more performance when fetch the data, a Next.js front-end application based at Atomic Design to get user data and display it friendly and with the best performance, and not only the CLI.
+To the infrastructure we can deploy the front-end project at Vercel for homologation, the API at Heroku also for homologation, then at AWS both of them for production.
